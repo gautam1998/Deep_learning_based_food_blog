@@ -1,9 +1,7 @@
-# WEB-Tech-2
+This project aims at creating a smart food blog using JavaScript, HTML, CSS, MongoDB, flask, and TensorFlow.
 
-Food blog website using Vanilla Javascript, HTML, CSS front end and Flask-MongoDB Backend. Users can sign up to the website and upload posts of food which involves uploading photos, writing descriptions and captions. Users can be searched for and their posts and can be commented on. Using Resnet50 object detection the food can be recognized and their names returned with hashtags to provide some captioning automation.
-
-1) Setup flask on your machine
-2) Setup MongoDB and create the collections 
-2) Run api.py, image.py as 2 separate flask servers on different ports
-3) The website is hosted on the api.py flask server.
-4) The image.py server is used as the ML component(Food recognition) in the project.
+Features of the project :
+1) Users can sign up and create an account that will be registered on the backend.
+2) Users can upload images and write comments and descriptions for their posts.
+3) Users can search for other user's posts and can like and comment on their posts.
+4) The blog has a smart component that can automatically generate captions for the posts. 
